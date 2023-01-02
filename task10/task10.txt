@@ -1,0 +1,59 @@
+#include<iostream>
+#include<windows.h>
+using namespace std;
+void finalprice(string country , int ticket_price , float discount , float final_price);
+main()
+{
+  while(true)
+  {
+    string country;
+    int ticket_price;
+    float discount;
+    float final_price;
+    cout<< " enter country name : "<< endl;
+    cin>> country;
+    cout << " enter ticket price : " <<endl;
+    cin>> ticket_price;
+    void finalprice(string country , ticket_price , discount , final_price);
+  }
+}
+void finalprice(string country , int ticket_price , float discount , float final_price)
+{
+  string countryy;
+  int tckt_price;
+  float disc;
+  float final_prc;
+  if(countryy=="Pakistan")
+  discount=(tckt_price/100)*5;
+  final_prc=tckt_price-disc;
+   {
+     cout<< " final price is : " << final_prc << endl;
+   }
+  
+  if(countryy=="Ireland")
+  discount=(tckt_price/100)*10;
+  final_prc=tckt_price-disc;
+   {
+     cout<< " final price is : " << final_prc << endl;
+   }
+  if(countryy=="India")
+  discount=(tckt_price/100)*20;
+  final_prc=tckt_price-disc;
+   {
+     cout<< " final price is : " << final_prc << endl;
+   }
+   
+  if(countryy=="England")
+  discount=(tckt_price/100)*30;
+  final_prc=tckt_price-disc;
+   {
+     cout<< " final price is : " << final_price << endl;
+   }
+  
+  if(countryy=="Canada")
+  discount=(tckt_price/100)*45;
+  final_prc=tckt_price-disc;
+   {
+     cout<< " final price is : " << final_prc << endl;
+   }
+}
